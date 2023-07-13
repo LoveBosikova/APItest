@@ -22,7 +22,6 @@ function printArticle(article) {
 
 
 // Достаём статьи из АПИ
-
 fetch('https://jsonplaceholder.typicode.com/posts')
   .then((response) => response.json())
   .then((json) => {
