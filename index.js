@@ -20,7 +20,6 @@ function printArticle(article) {
     articlesWrap.appendChild(article);
 }
 
-
 // Достаём статьи из АПИ
 fetch('https://jsonplaceholder.typicode.com/posts')
   .then((response) => response.json())
